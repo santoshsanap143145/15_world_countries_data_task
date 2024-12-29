@@ -1,0 +1,172 @@
+
+body{
+    font-family: "Sofia Sans", serif;
+}
+
+.header{
+    padding: 1.4rem 0 2rem;
+    background-color: #eef8f8;
+}
+
+.priHeading{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #ffa500;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.secHeading{
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.comment{
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: bold;
+    color: #ffa500;
+    margin: 0;
+}
+
+.controlFunct{
+    padding: 2rem 0 2.5rem;
+}
+
+.controlFunct input{
+    width: 100%;
+    height: 2rem;
+    background-color: rgb(247, 228, 228);
+    border: none;
+    border-radius: 3rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 1.5rem;
+    color: #ffa500;
+    margin-bottom: 2rem;
+}
+
+.controlFunct input:is(:focus, :active, :hover){
+    color: #ffa500;
+    border: 2px solid #ffa500;
+    outline: none;
+}
+
+.sortButtons{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.controlFunct .sortButton .button{
+    font-size: 1.4rem;
+    font-weight: 700;
+    background-color: #ffa500;
+    padding: .5rem 3rem;
+    border: none;
+    border-radius: 3rem;
+    margin-right: 1.5rem;
+    text-transform: uppercase;
+    transition: all .4s ease-in-out;
+}
+
+.sortButton .button:is(:focus, :active, :hover){
+    background-color: #fdd893;
+    color: #ffa500;
+    border: 2px solid #ffa500;
+    transform: scale(.9);
+}
+
+.sortButton a{
+    display: inline-block;
+    text-decoration: none;
+    align-self: baseline;
+}
+.sortButton .chart{
+    font-size: 3rem;
+    color: #ffa500;
+    align-self: baseline;
+}
+
+
+.main{
+    background-color: #f6eded;
+}
+
+.countryCard{
+    margin: 15px 0;
+    overflow: hidden;
+    height: 25rem;
+}
+.countryCard .flag{
+    width: 9.375rem;
+    height: 5.625rem;
+    margin: .6rem 2rem;
+    outline: 1px solid gray;
+}
+
+.countryCard .card-title{
+    color: #ffa500;
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin: 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.countryCard .card-body p{
+    font-size: 1rem;
+    margin: 0;
+    color: rgb(95, 92, 92);
+    text-transform: capitalize;
+}
+
+.countryCard .card-body span{
+    font-weight: bold;
+}
+
+
+
+.graphChart{
+    padding: 2rem 0 2rem;
+}
+
+.graphButtons button{
+    background-color: #ffa500;
+    color: #010101;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    padding: .4rem 2rem;
+    margin: 0 2rem .8rem 0;
+
+}
+
+.graphButtons .title{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.chartstats{
+    background-color: #f6eded;
+    padding: 2rem 0;
+}
+
+.oflow{
+    overflow: hidden;
+    height: 1.6rem;
+}
+
+.chartstats .bar{
+    height: 1.6rem;
+    width: 100%;
+    background-color: rgb(255, 221, 176);
+    border: none;
+}
+
+.chartstats .percentage{
+    height: 1.6rem;
+    background-color: #ffa500;
+}
+
